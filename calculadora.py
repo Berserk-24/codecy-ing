@@ -7,3 +7,4 @@ def dividir(a, b):
 saludar("Mundo") 
 print(dividir(10, 0)) 
 
+ def sumar(a, b):
