@@ -1,11 +1,37 @@
-def saludar(nombre): 
-    print("Hola " + nombre) 
- 
-def dividir(a, b): 
-    return a / b 
- 
-saludar("Mundo") 
-print(dividir(10, 0)) 
+import os  # Importación no utilizada
 
-def sumar( a ,b ) :
-  return a+b
+def Saludar(Nombre):  # Nombre de función y parámetro no en snake_case (PEP8)
+  print("Hola " + Nombre)
+
+def sumar(a,b): return a+b  # Falta de indentación, mala práctica (todo en una línea)
+
+def funcion_duplicada(x):
+    if x > 5:
+        return True
+    else:
+        return False
+
+def funcion_duplicada(x):  # Duplicación de código
+    if x > 5:
+        return True
+    else:
+        return False
+
+def funcion_larga():
+    a = 1
+    b = 2
+    c = 3
+    d = 4
+    e = 5
+    f = 6
+    g = 7
+    h = 8
+    i = 9
+    j = 10
+    k = 11
+    l = 12
+    m = 13
+    n = 14
+    o = 15
+    return a + b + c + d + e + f + g + h + i + j + k + l + m + n + o
+
