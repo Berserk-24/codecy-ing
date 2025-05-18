@@ -1,12 +1,7 @@
 def saludar(nombre): 
     print("Hola " + nombre) 
  
-def dividir(a, b): 
-    return a / b 
- 
 saludar("Mundo") 
-
-print(dividir(10, 0)) 
 
 def dividir(a, b):
     try:
@@ -15,3 +10,5 @@ def dividir(a, b):
         print("no se puede dividir entre cero")
         R = None
     return R
+
+print(dividir(10, 0)) 
